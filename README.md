@@ -30,11 +30,11 @@ Paragraph two
 
 ---
 
-For a Command, use one back tick at the beginning and end of the command:
+**For a Command, use one back tick at the beginning and end of the command:**
 `ls -a`
 
-For a Block of Code, use three back ticks at the beginning and end of the code:
-```
+**For a Block of Code, use three back ticks at the beginning and end of the code:**
+```html
 <!DOCTYPE html>
 <html>
 <head> 
@@ -45,9 +45,15 @@ For a Block of Code, use three back ticks at the beginning and end of the code:
 </html>
 ```
 
+```css
+span {
+background-color:blue;
+}
+```
+
 ---
 
-For Bullet Point List:
+**For Bullet Point List:**
 
 * item 1
 * item 2
@@ -61,7 +67,7 @@ For Number List:
 
 ---
 
-Adding a Link and Image:
+**Adding a Link and Image:**
 
 Link [link](http://google.com)
 
@@ -71,13 +77,15 @@ Note for the image you can also use a URL to an Image
 
 ---
 
-Inline HTML
+**How to make To-dos**
 
-output:
- html_document:
-   css: style.css
-   self_contained: no
-   
+- [X] Item 1
+- [ ] Item 1
+- [ ] Item 1
 
-<p title="Hypertext Markup Language">HTML in line with background color</p>
+---
+
+**Inline HTML**
+
+<span>HTML in line with background color</span>
 
