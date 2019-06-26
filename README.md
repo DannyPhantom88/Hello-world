@@ -80,7 +80,7 @@ Note for the image you can also use a URL to an Image
 **How to make To-dos**
 
 - [X] Item 1
-- [ ] Item 1
+- [X] Item 1
 - [ ] Item 1
 
 ---
